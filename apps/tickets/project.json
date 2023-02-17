@@ -16,12 +16,7 @@
         "tsConfig": "apps/tickets/tsconfig.app.json",
         "assets": [
           "apps/tickets/src/favicon.ico",
-          "apps/tickets/src/assets",
-          {
-            "glob": "**/*",
-            "input": "libs/luggage",
-            "output": "/assets/luggage/fonts"
-          }
+          "apps/tickets/src/assets"
         ],
         "styles": [
           "@angular/material/prebuilt-themes/indigo-pink.css",

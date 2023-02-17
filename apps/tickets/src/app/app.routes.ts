@@ -37,6 +37,11 @@ export const APP_ROUTES: Routes = [
           ),
       },
       {
+        path: 'luggage',
+        loadComponent: () => import('@flight-demo/luggage/feature-checkin')
+          .then(esm => esm.CheckinComponent)
+      },
+      {
         path: 'about',
         component: AboutComponent,
       },

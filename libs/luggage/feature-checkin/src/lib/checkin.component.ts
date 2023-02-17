@@ -10,7 +10,7 @@ import { CheckinFacade } from '@flight-demo/luggage/domain';
   styleUrls: ['./checkin.component.scss'],
   // encapsulation: ViewEncapsulation.None
 })
-export class CheckinComponent implements OnInit {
+export default class CheckinComponent implements OnInit {
   luggageList$ = this.checkinFacade.luggageList$;
 
   constructor(private checkinFacade: CheckinFacade) {}

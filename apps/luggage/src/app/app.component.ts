@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { CheckinComponent } from '@flight-demo/luggage/feature-checkin';
+import CheckinComponent from '@flight-demo/luggage/feature-checkin';
 
 @Component({
   standalone: true,

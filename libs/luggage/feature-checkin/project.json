@@ -40,5 +40,9 @@
       }
     }
   },
-  "tags": ["domain:luggage", "type:feature"]
+  "tags": [
+    "domain:luggage",
+    "domain:luggage-api-tickets",
+    "type:feature"
+  ]
 }

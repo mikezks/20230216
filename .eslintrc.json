@@ -83,7 +83,11 @@
               },
               {
                 "sourceTag": "domain:tickets",
-                "onlyDependOnLibsWithTags": ["domain:tickets", "domain:shared"]
+                "onlyDependOnLibsWithTags": [
+                  "domain:tickets",
+                  "domain:shared",
+                  "domain:luggage-api-tickets"
+                ]
               },
               {
                 "sourceTag": "domain:checkin",
